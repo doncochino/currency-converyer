@@ -1,5 +1,6 @@
 # Currency-converter
 
-![image](images/share.jpg)
+![image](https://github.com/doncochino/currency-converter/blob/main/images/share.jpg)
 
+## Demo
 
