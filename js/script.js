@@ -1,6 +1,9 @@
 {
-    console.log("Witaj w moim kalkulatorze walut");
+    const welcome = () => {
+        console.log("Welcome to my currency calculator");
+    };
 
+    welcome();
 
     const inCurrencyElement = document.querySelector(".js-inCurrency");
     const outCurrencyElement = document.querySelector(".js-outCurrency");
