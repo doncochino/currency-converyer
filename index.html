@@ -19,50 +19,48 @@
 </head>
 
 <body>
-    <div class="background">
-        <form class="js-form">
-            <fieldset class="form">
-                <legend class="form__header">Kalkulator walut</legend>
-                <p>
-                    <label>
-                        <span class="form__field">
-                            Waluta do przeliczenia</span>
-                        <select class="currency form__field form__text js-inCurrency">
-                            <option value="PLN">PLN</option>
-                            <option value="EUR" selected>EUR</option>
-                            <option value="GBP">GBP</option>
-                            <option value="USD">USD</option>
-                        </select>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <span class="form__field">
-                            Wprowadź kwotę</span>
-                        <input class="currency form__field--number form__text js-number" required type="number"
-                            step="0.01" min="0.01">
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <span class="form__field">
-                            Przelicz na walutę</span>
-                        <select class="currency form__field form__text js-outCurrency">
-                            <option value="PLN">PLN</option>
-                            <option value="EUR">EUR</option>
-                            <option value="GBP">GBP</option>
-                            <option value="USD">USD</option>
-                        </select>
-                    </label>
-                </p>
-                <p class="form__field">Kurs wymiany: <strong class="js-rate">4.46</strong></p>
-                <p class="form__field">
-                    <button class="form__field">Przelicz</button>
-                </p>
-                <p>Kwota po przeliczeniu: <strong class="form__field form__text js-result"></strong></p>
-            </fieldset>
-        </form>
-    </div>
+    <form class="js-form">
+        <fieldset class="form">
+            <legend class="form__header">Kalkulator walut</legend>
+            <p>
+                <label>
+                    <span class="form__field">
+                        Waluta do przeliczenia</span>
+                    <select class="currency form__field form__text js-inCurrency">
+                        <option value="PLN">PLN</option>
+                        <option value="EUR" selected>EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__field">
+                        Wprowadź kwotę</span>
+                    <input class="currency form__field--number form__text js-number" required type="number" step="0.01"
+                        min="0.01">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__field">
+                        Przelicz na walutę</span>
+                    <select class="currency form__field form__text js-outCurrency">
+                        <option value="PLN">PLN</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </label>
+            </p>
+            <p class="form__field">Kurs wymiany: <strong class="js-rate">4.46</strong></p>
+            <p class="form__field">
+                <button class="form__field">Przelicz</button>
+            </p>
+            <p>Kwota po przeliczeniu: <strong class="form__field form__text js-result"></strong></p>
+        </fieldset>
+    </form>
 </body>
 
 </html>
