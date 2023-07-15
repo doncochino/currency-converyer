@@ -4,55 +4,11 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
 
 *,
 ::after ::before {
     box-sizing: inherit;
-}
-
-.background {
-    height: 713px;
-    overflow: auto;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.form {
-    color: white;
-    background: rgba(60, 60, 60, 0.505);
-    border: 1px solid;
-    border-radius: 8px;
-    max-width: 415px;
-    padding: 0 20px;
-    margin: 50px auto;
-}
-
-.form__header {
-    background: rgb(182, 172, 122);
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 5px;
-    font-size: 18px;
-}
-
-.currency {
-    font-weight: bold;
-}
-
-.form__field {
-    width: 100%;
-    max-width: 200px;
-    display: inline-block;
-    margin-right: 5px;
-}
-
-.form__field--number {
-    max-width: 192px;
-}
-
-.form__text {
-    text-align: right;
 }
