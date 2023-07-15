@@ -11,9 +11,9 @@
 
     const calculateRate = (inCurrency, outCurrency) => {
         const PLN = 1.00;
-        const EUR = 4.47;
-        const GBP = 5.24;
-        const USD = 4.08;
+        const EUR = 4.46;
+        const GBP = 5.19;
+        const USD = 3.97;
 
         switch (inCurrency) {
             case "PLN":
