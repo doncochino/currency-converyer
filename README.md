@@ -11,4 +11,4 @@ If you want to check, clik [here](https://doncochino.github.io/currency-converte
 - HTML
 - CSS
 - BEM
-- JavaScript ES6+
+- JavaScript
