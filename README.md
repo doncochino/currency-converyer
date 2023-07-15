@@ -10,4 +10,5 @@ If you want to check, clik [here](https://doncochino.github.io/currency-converte
 ## Techonolgies used in the project:
 - HTML
 - CSS
-- JavaScript
+- BEM
+- JavaScript ES6+
