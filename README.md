@@ -1,6 +1,6 @@
 # Currency Converter
 
-![image](https://github.com/doncochino/currency-converter/blob/main/images/share.jpg)
+![image](https://github.com/doncochino/currency-converter/blob/main/images/animation.gif)
 
 ## Description
 This is the currency converter that allows you to amount currencies between 4 types: PLN, EUR, GBP and USD.
