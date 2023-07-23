@@ -1,10 +1,4 @@
 {
-    const welcome = () => {
-        console.log("Welcome to my currency calculator");
-    };
-
-    welcome();
-
     const inCurrencyElement = document.querySelector(".js-inCurrency");
     const outCurrencyElement = document.querySelector(".js-outCurrency");
     const formElement = document.querySelector(".js-form");
