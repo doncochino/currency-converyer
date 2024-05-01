@@ -1,6 +1,6 @@
 # Currency Converter
 
-![image](https://github.com/przemyslaw-pacek/currency-converter/blob/main/images/animation.gif)
+![image](./images/animation.gif)
 
 ## Description
 This is the currency converter that allows you to amount currencies between 4 types: PLN, EUR, GBP and USD.
