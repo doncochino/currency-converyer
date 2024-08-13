@@ -12,22 +12,24 @@
         };
     };
 
-    const rate = () => {
+    const calculateRate = () => {
         const rateElement = document.querySelector(".js-rate");
 
         const rate = currencyRate(inCurrencyElement.value) / currencyRate(outCurrencyElement.value);
 
         rateElement.innerHTML = rate.toFixed(2);
+        return rate;
     };
 
     const init = () => {
-        formElement.addEventListener("input", rate);
+        formElement.addEventListener("input", calculateRate);
     };
 
     init();
 
     const result = (event) => {
         event.preventDefault();
+
         const nameCurrency = (outCurrency) => {
             switch (outCurrency) {
                 case "PLN": return "zł";
@@ -36,10 +38,12 @@
                 case "USD": return "$";
             };
         };
+
         const numberElement = document.querySelector(".js-number");
         const resultElement = document.querySelector(".js-result");
 
-        const result = numberElement.value * currencyRate(inCurrencyElement.value) / currencyRate(outCurrencyElement.value);
+        const rate = calculateRate();
+        const result = numberElement.value * rate;
 
         resultElement.innerHTML = `${result.toFixed(2)} ${nameCurrency(outCurrencyElement.value)}`;
     };
