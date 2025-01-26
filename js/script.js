@@ -27,7 +27,7 @@
 
     init();
 
-    const result = (event) => {
+    const calculateResult = (event) => {
         event.preventDefault();
 
         const nameCurrency = (outCurrency) => {
@@ -48,9 +48,9 @@
         resultElement.innerHTML = `${result.toFixed(2)} ${nameCurrency(outCurrencyElement.value)}`;
     };
 
-    const endResult = () => {
-        formElement.addEventListener("submit", result);
+    const getResult = () => {
+        formElement.addEventListener("submit", calculateResult);
     };
 
-    endResult();
+    getResult();
 }
